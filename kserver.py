@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class KServerLoadBalancer:
     def __init__(self, k, server_weights):
         """
@@ -68,5 +67,3 @@ server_weights = [
 
 # Initialize the load balancer, server_weights come from our ML model
 load_balancer = KServerLoadBalancer(k, server_weights)
-
-

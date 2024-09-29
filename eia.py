@@ -53,7 +53,6 @@ if response.status_code == 200:
             })
 
     # Print the transformed data
-    # print(json.dumps(transformed_data, indent=4))
 
     # Optionally, save the transformed data to a JSON file
     with open('transformed_eia_data_by_state.json', 'w') as json_file:

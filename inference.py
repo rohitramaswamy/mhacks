@@ -12,36 +12,17 @@ def get_lat_lon(city):
 	lat_value = df.loc[df["city"] == city, "lat"].values[0]
 	lon_value = df.loc[df["city"] == city, "lng"].values[0]
 	return (lat_value, lon_value)
- 
-    
+
+
 # from geopy.geocoders import Nominatim
 def return_weight(city) -> float:
     # Load the saved model
 	model = load_model("my_model.h5")
-
-	# Example: Preparing new input data for inference
-	# Let's assume `X_new` is your new data for inference
-	# For demonstration, we are using some example data. Replace this with your actual data.
-	# Setup the Open-Meteo API client with cache and retry on error
 	cache_session = requests_cache.CachedSession(".cache", expire_after=3600)
 	retry_session = retry(cache_session, retries=5, backoff_factor=0.2)
 	openmeteo = openmeteo_requests.Client(session=retry_session)
-	# geolocator = Nominatim(user_agent="geoapiExercises")
-
-	# location = geolocator.geocode(city)
 
 	lat_value, lon_value = get_lat_lon(city)
-	# lattitude = 0
-	# longitude = 0
-
-	# if location:
-	#     lattitude = location.latitude
-	#     longitude = location.longitude
-	# else:
-	#     exit(1, "Location not found")
-
-	# Make sure all required weather variables are listed here
-	# The order of variables in hourly or daily is important to assign them correctly below
 	url = "https://api.open-meteo.com/v1/forecast"
 	params = {
 		"latitude": lat_value,
@@ -93,12 +74,6 @@ def return_weight(city) -> float:
 	hourly_dataframe.drop("date", axis="columns", inplace=True)
 	print(hourly_dataframe)
 
-	# X_new = pd.DataFrame({
-	#     'temperature_2m': [22.5, 18.3],  # Example values
-	#     'cloud_cover': [50.0, 80.0],
-	#     'wind_speed_100m': [12.0, 8.0]
-	# })
-
 	# Standardize the new input data using the same scaler used during training
 	scaler = StandardScaler()  # Ensure this is the same scaler as used during training
 	X_new_scaled = scaler.fit_transform(
@@ -117,6 +92,4 @@ def return_weight(city) -> float:
 	var = np.var(predictions)
 	weight = mean / var
 	return weight
-    
-    # with open("output.txt", "w") as file:
-    #     print(weight, file=file)
+

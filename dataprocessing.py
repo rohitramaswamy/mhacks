@@ -60,84 +60,52 @@ pivot_df['wind_value'] = pivot_df['wind_value'].where(pivot_df['wind_value'] >= 
 
 pivot_df['sum_value'] = pivot_df['sun_value'] + pivot_df['wind_value']
 
-
-# print(pivot_df)
 for states in pivot_df['state'].unique():
     data = pivot_df[pivot_df['state'] == 'states']
     data['sum_value'] = (data['sum_value'] / data['sum_value'].max())
     pivot_df[pivot_df['state'] == 'states'] = data
-# print(pivot_df)
 
+pivot_df['sum_value'] = (pivot_df['sum_value']) / (pivot_df['sum_value'].max())
 
 # Optionally, save the transformed DataFrame to a JSON file
-# pivot_df.to_json("transformed_pivot_data.json", orient="records", lines=True)
-
 # Assuming pivot_df is your DataFrame with the relevant columns
-
-z_scores = zscore(pivot_df['sum_value'])
-print(len(pivot_df))
-#  pivot_df = pivot_df[(z_scores < 3) & (z_scores > -3)]
-# pivot_df['sum_value'] = np.sqrt(pivot_df['sum_value'])
-# pivot_df['sum_value'] = np.sqrt(pivot_df['sum_value'])
-print(len(pivot_df))
-# print(pivot_df['sum_value'].max())
-pivot_df['sum_value'] = (pivot_df['sum_value']) / (pivot_df['sum_value'].max())
 X = pivot_df[['temperature_2m', 'cloud_cover', 'wind_speed_100m']]
 y = pivot_df[['sum_value']]
-
-# above = pivot_df[pivot_df['sum_value'] > .5]
-# print(len(above))
-mean = np.mean(pivot_df['sum_value'])
-print(mean)
-
-
-
-
-# pivot_df['sum_value'] = np.sqrt(pivot_df['sum_value'])
-# pivot_df['sum_value'] = np.sqrt(pivot_df['sum_value'])
-# above = pivot_df[pivot_df['sum_value'] > .5]
-# print(len(above))
-# mean = np.mean(pivot_df['sum_value'])
-# print(mean)
-
-# print(pivot_df)
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-# # Standardize the feature data
+# Standardize the feature data
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-# # Reshape the data for LSTM (samples, time steps, features)
-# # Here, we are using 1 time step, hence we add a new axis
+# Reshape the data for LSTM (samples, time steps, features)
+# Here, we are using 1 time step, hence we add a new axis
 X_train_scaled = X_train_scaled[:, np.newaxis, :]  # Shape: (samples, time_steps=1, features=3)
 X_test_scaled = X_test_scaled[:, np.newaxis, :]    # Shape: (samples, time_steps=1, features=3)
 
-# # Build the LSTM model
+# Build the LSTM model
 model = keras.Sequential([
     layers.LSTM(64, activation='relu', input_shape=(X_train_scaled.shape[1], X_train_scaled.shape[2])),
     layers.Dense(32, activation='relu'),
-    layers.Dense(1)  # Output layer with 2 neurons for sun_value and wind_value
+    layers.Dense(1)  # Output layer with 1 neurons for sum_value
 ])
 
-# # Compile the model
+# Compile the model
 model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mse'])
 
-# # Train the model
+# Train the model
 history = model.fit(X_train_scaled, y_train, epochs=100, batch_size=32, validation_split=0.2)
 
-# # Evaluate the model
+# Evaluate the model
 test_loss, test_mae = model.evaluate(X_test_scaled, y_test)
 print(f'Test MAE: {test_mae:.2f}')
 
-# # Make predictions
+# Make predictions
 predictions = model.predict(X_test_scaled)
 
-# # Create a DataFrame for the predictions
+# Create a DataFrame for the predictions
 predicted_df = pd.DataFrame(predictions, columns=['predicted_sum_value'])
 
 model.save('my_model.h5')
-
-# print(predicted_df)
