@@ -9,7 +9,7 @@ params = {
     "data[0]": "value",
     "facets[fueltype][]": ["SUN", "WND"],
     "facets[respondent][]": ["CAL", "NY", "TEN", "TEX"],
-    "start": "2024-03-25T00-04:00",
+    "start": "2024-08-29T00-04:00",
     "end": "2024-09-25T00-04:00",
     "sort[0][column]": "period",
     "sort[0][direction]": "desc",
