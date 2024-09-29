@@ -9,7 +9,7 @@ params = {
     "data[0]": "value",
     "facets[fueltype][]": ["SUN", "WND"],
     "facets[respondent][]": ["CAL", "FLA", "NY", "TEN", "TEX"],
-    "start": "2024-09-24T00-04:00",
+    "start": "2024-08-25T00-04:00",
     "end": "2024-09-25T00-04:00",
     "sort[0][column]": "period",
     "sort[0][direction]": "desc",
@@ -26,7 +26,7 @@ if response.status_code == 200:
     data = response.json()
     
     # Print the JSON response
-    print(json.dumps(data, indent=4))
+    # print(json.dumps(data, indent=4))
     
     # Optionally, save the data to a JSON file
     with open('eia_data.json', 'w') as json_file:
