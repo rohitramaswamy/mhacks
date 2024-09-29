@@ -98,14 +98,12 @@ if st.session_state.city_weights:
     )
 
     nums = st.number_input("Simulate n tasks", step=1)
-
     random_numbers = [random.randint(1, 20) for i in range(int(nums))]
 
     # Distribute tasks across servers
     if random_numbers:
-        st.write(random_numbers)
         load_balancer.serve_tasks(random_numbers)
 
     st.write("\nFinal loads on each server:")
     for i, load in enumerate(load_balancer.server_loads):
-        st.write(f"Server {i + 1}: {load} load units")
+        st.write(f"{st.session_state.cities[i]} Server: {load} load units")
