@@ -8,5 +8,6 @@ By Aditya Ashok Sinha <adisinha@umich.edu> & Rohit Ramaswamy <rohitra@umich.edu>
 ```console
 $ python3 -m venv env/
 $ source env/bin/activate
+$ pip install -r requirements.txt
 $ streamlit run frontend.py
 ```
