@@ -1,5 +1,6 @@
 import requests
 import json
+from datetime import datetime
 
 # Define the API key and URL
 API_KEY = 'mLJuZa8xlTL8uYh5KXDWHK7lYmsXVTcIC3AklQAz'
@@ -25,11 +26,31 @@ response = requests.get(url, params=params)
 if response.status_code == 200:
     data = response.json()
     
-    # Print the JSON response
-    # print(json.dumps(data, indent=4))
-    
-    # Optionally, save the data to a JSON file
-    with open('eia_data.json', 'w') as json_file:
-        json.dump(data, json_file, indent=4)
+    # Initialize a new dictionary to store the transformed data
+    transformed_data = {}
+
+    # Loop through the data and format it
+    for entry in data['response']['data']:
+        # Use the period as the outer key
+        period = entry['period'].replace("T", " ") + ":00"  # Add seconds
+        
+        # Check if the fuel type is SUN or WND
+        if entry['fueltype'] in ["SUN", "WND"]:
+            # Initialize nested dictionary for the period if not already done
+            if period not in transformed_data:
+                transformed_data[period] = {}
+
+            # Add fuel data organized by respondent (state)
+            transformed_data[period][entry['respondent']] = {
+                "fueltype": entry['fueltype'],
+                "value": float(entry['value'])  # Convert value to float
+            }
+
+    # Print the transformed data
+    # print(json.dumps(transformed_data, indent=4))
+
+    # Optionally, save the transformed data to a JSON file
+    with open('transformed_eia_data_by_state.json', 'w') as json_file:
+        json.dump(transformed_data, json_file, indent=4)
 else:
     print(f"Error: {response.status_code} - {response.text}")
