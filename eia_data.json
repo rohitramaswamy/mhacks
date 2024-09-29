@@ -6,7 +6,7 @@
                 "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
             }
         ],
-        "total": "6700",
+        "total": "5193",
         "dateFormat": "YYYY-MM-DD\"T\"HH24TZH",
         "frequency": "local-hourly",
         "data": [
@@ -45033,7 +45033,7 @@
                     "TEX"
                 ]
             },
-            "start": "2024-08-25T00-04:00",
+            "start": "2024-09-01T00-04:00",
             "end": "2024-09-25T00-04:00",
             "sort": [
                 {
