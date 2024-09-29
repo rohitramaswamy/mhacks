@@ -55,14 +55,15 @@ class KServerLoadBalancer:
             print(f"Server {i + 1}: {load} load units")
 
 # Example usage
-k = 4  # number of servers
-server_weights = [1, 2, 3, 4]  # weights of servers (lower weight = more preferred)
+k = 5  # number of servers
+#  [Cleveland, Vegas, Tampa, Boston, Ann Arbor]
+server_weights = [3.5965998, 3.990588, 3.7214596, 4.200251, 3.6135137]  # weights of servers (lower weight = more preferred)
 
 # Initialize the load balancer, server_weights come from our ML model
 load_balancer = KServerLoadBalancer(k, server_weights)
 
 # Example tasks with different loads
-tasks = [5, 3, 7, 2, 10, 4]
+tasks = [5, 3, 7, 2, 10, 4,5, 3, 7, 2, 10, 4,5, 3, 7, 2, 10, 4,5, 3, 7, 2, 10, 4,5, 3, 7, 2, 10, 4]
 
 # Distribute tasks across servers
 load_balancer.serve_tasks(tasks)

@@ -15,10 +15,12 @@ url = "https://archive-api.open-meteo.com/v1/archive"
 
 # List of latitudes, longitudes, timezones, and corresponding states
 locations = [
-    {"state": "NY", "latitude": 40.7128, "longitude": -74.0060, "timezone": "America/New_York"},
-    {"state": "TEX", "latitude": 31.9686, "longitude": -99.9018, "timezone": "America/Chicago"},
-    {"state": "TEN", "latitude": 35.5175, "longitude": -86.5804, "timezone": "America/Chicago"},
-    {"state": "CAL", "latitude": 36.7783, "longitude": -119.4179, "timezone": "America/Los_Angeles"},
+    {"state": "NY", "latitude": 40.7128, "longitude": 74.0060, "timezone": "America/New_York"},
+    {"state": "CAR", "latitude": 33.8361, "longitude": 81.1637, "timezone": "America/New_York"},
+    {"state": "TEX", "latitude": 31.9686, "longitude": 99.9018, "timezone": "America/Chicago"},
+    {"state": "TEN", "latitude": 35.5175, "longitude": 86.5804, "timezone": "America/Chicago"},
+    {"state": "CAL", "latitude": 36.7783, "longitude": 119.4179, "timezone": "America/Los_Angeles"},
+    {"state": "NW", "latitude": 47.6061, "longitude": 122.3328, "timezone": "America/Los_Angeles"},
 ]
 
 # Define start and end dates
