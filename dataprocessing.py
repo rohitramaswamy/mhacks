@@ -79,9 +79,7 @@ X_test_scaled = X_test_scaled[:, np.newaxis, :]    # Shape: (samples, time_steps
 
 # Build the LSTM model
 model = keras.Sequential([
-    layers.Input(shape=(X_train_scaled.shape[1], X_train_scaled.shape[2])),
-    layers.BatchNormalization(),  # Batch normalization layer at the beginning
-    layers.LSTM(64, activation='relu', return_sequences=False),
+    layers.LSTM(64, activation='relu', input_shape=(X_train_scaled.shape[1], X_train_scaled.shape[2])),
     layers.Dense(32, activation='relu'),
     layers.Dense(2)  # Output layer with 2 neurons for sun_value and wind_value
 ])
