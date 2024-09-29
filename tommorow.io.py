@@ -62,8 +62,8 @@ for location in locations:
 
     # Localize and format times in the specified format
     timezone = pytz.timezone(tz)
-    hourly_time = [time.astimezone(timezone).strftime('%Y-%m-%d %H:%M:%S %z') for time in hourly_time_utc]
-    hourly_time = [time[:-2] + '-' + time[-2:] for time in hourly_time]  # Replace the last 2 digits with a hyphen
+    hourly_time = [time.astimezone(timezone).strftime('%Y-%m-%d %H%z') for time in hourly_time_utc]
+    hourly_time = [time[:-2] + ':' + time[-2:] for time in hourly_time]  # Replace the last 2 digits with a hyphen
 
     hourly_temperature_2m = hourly.Variables(0).ValuesAsNumpy()
     hourly_cloud_cover = hourly.Variables(1).ValuesAsNumpy()
