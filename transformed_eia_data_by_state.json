@@ -5769,6 +5769,496 @@
                 "fueltype": "WND",
                 "value": 433.0
             }
+        ],
+        "2024-08-31 23-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 418.0
+            }
+        ],
+        "2024-08-31 22-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 385.0
+            }
+        ],
+        "2024-08-31 21-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 393.0
+            }
+        ],
+        "2024-08-31 20-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 412.0
+            }
+        ],
+        "2024-08-31 19-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 500.0
+            }
+        ],
+        "2024-08-31 18-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 771.0
+            }
+        ],
+        "2024-08-31 17-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 620.0
+            }
+        ],
+        "2024-08-31 16-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 690.0
+            }
+        ],
+        "2024-08-31 15-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 784.0
+            }
+        ],
+        "2024-08-31 14-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 815.0
+            }
+        ],
+        "2024-08-31 13-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 784.0
+            }
+        ],
+        "2024-08-31 12-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 757.0
+            }
+        ],
+        "2024-08-31 11-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 770.0
+            }
+        ],
+        "2024-08-31 10-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 880.0
+            }
+        ],
+        "2024-08-31 09-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1106.0
+            }
+        ],
+        "2024-08-31 08-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1237.0
+            }
+        ],
+        "2024-08-31 07-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1311.0
+            }
+        ],
+        "2024-08-31 06-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1126.0
+            }
+        ],
+        "2024-08-31 05-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1343.0
+            }
+        ],
+        "2024-08-31 04-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1461.0
+            }
+        ],
+        "2024-08-31 03-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1615.0
+            }
+        ],
+        "2024-08-31 02-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1740.0
+            }
+        ],
+        "2024-08-31 01-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1692.0
+            }
+        ],
+        "2024-08-31 00-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1629.0
+            }
+        ],
+        "2024-08-30 23-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1419.0
+            }
+        ],
+        "2024-08-30 22-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1274.0
+            }
+        ],
+        "2024-08-30 21-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1042.0
+            }
+        ],
+        "2024-08-30 20-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 809.0
+            }
+        ],
+        "2024-08-30 19-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 612.0
+            }
+        ],
+        "2024-08-30 18-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 485.0
+            }
+        ],
+        "2024-08-30 17-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 432.0
+            }
+        ],
+        "2024-08-30 16-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 424.0
+            }
+        ],
+        "2024-08-30 15-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 439.0
+            }
+        ],
+        "2024-08-30 14-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 479.0
+            }
+        ],
+        "2024-08-30 13-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 474.0
+            }
+        ],
+        "2024-08-30 12-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 472.0
+            }
+        ],
+        "2024-08-30 11-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 470.0
+            }
+        ],
+        "2024-08-30 10-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 443.0
+            }
+        ],
+        "2024-08-30 09-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 463.0
+            }
+        ],
+        "2024-08-30 08-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 520.0
+            }
+        ],
+        "2024-08-30 07-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 559.0
+            }
+        ],
+        "2024-08-30 06-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 514.0
+            }
+        ],
+        "2024-08-30 05-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 552.0
+            }
+        ],
+        "2024-08-30 04-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 539.0
+            }
+        ],
+        "2024-08-30 03-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 509.0
+            }
+        ],
+        "2024-08-30 02-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 563.0
+            }
+        ],
+        "2024-08-30 01-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 568.0
+            }
+        ],
+        "2024-08-30 00-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 520.0
+            }
+        ],
+        "2024-08-29 23-04:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 397.0
+            }
         ]
     },
     "TEN": {
@@ -11536,6 +12026,486 @@
             {
                 "fueltype": "SUN",
                 "value": -6.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 22-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -8.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 21-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -6.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 20-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -10.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 19-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 43.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 18-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 251.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 17-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 514.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 16-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 617.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 15-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 620.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 14-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 540.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 13-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 459.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 12-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 362.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 11-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 330.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 10-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 252.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 09-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 187.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 08-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 166.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 07-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 6.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 06-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -7.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 05-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -8.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 04-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -5.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 03-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -4.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 02-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -8.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 01-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -4.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-31 00-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -10.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 23-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -6.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 22-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -5.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 21-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -6.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 20-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 24.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 19-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 51.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 18-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 147.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 17-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 248.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 16-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 406.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 15-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 412.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 14-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 472.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 13-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 445.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 12-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 588.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 11-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 554.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 10-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 521.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 09-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 443.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 08-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 148.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 07-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 6.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 06-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -8.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 05-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -4.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 04-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -6.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 03-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -4.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 02-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -7.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 01-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -7.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-30 00-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -7.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 0.0
+            }
+        ],
+        "2024-08-29 23-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": -5.0
             },
             {
                 "fueltype": "WND",
@@ -17313,6 +18283,486 @@
                 "fueltype": "WND",
                 "value": 3013.0
             }
+        ],
+        "2024-08-31 22-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3432.0
+            }
+        ],
+        "2024-08-31 21-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 7.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4171.0
+            }
+        ],
+        "2024-08-31 20-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1241.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4952.0
+            }
+        ],
+        "2024-08-31 19-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 7663.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 5789.0
+            }
+        ],
+        "2024-08-31 18-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 12095.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 6132.0
+            }
+        ],
+        "2024-08-31 17-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 13658.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 6306.0
+            }
+        ],
+        "2024-08-31 16-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 15098.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 6167.0
+            }
+        ],
+        "2024-08-31 15-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 15485.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 5340.0
+            }
+        ],
+        "2024-08-31 14-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14862.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4504.0
+            }
+        ],
+        "2024-08-31 13-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14781.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4127.0
+            }
+        ],
+        "2024-08-31 12-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14338.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3577.0
+            }
+        ],
+        "2024-08-31 11-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 13077.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3033.0
+            }
+        ],
+        "2024-08-31 10-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 9667.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2386.0
+            }
+        ],
+        "2024-08-31 09-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 4930.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2586.0
+            }
+        ],
+        "2024-08-31 08-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 609.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2830.0
+            }
+        ],
+        "2024-08-31 07-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2637.0
+            }
+        ],
+        "2024-08-31 06-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2423.0
+            }
+        ],
+        "2024-08-31 05-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2665.0
+            }
+        ],
+        "2024-08-31 04-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3181.0
+            }
+        ],
+        "2024-08-31 03-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3156.0
+            }
+        ],
+        "2024-08-31 02-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3238.0
+            }
+        ],
+        "2024-08-31 01-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3738.0
+            }
+        ],
+        "2024-08-31 00-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4107.0
+            }
+        ],
+        "2024-08-30 23-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 5541.0
+            }
+        ],
+        "2024-08-30 22-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 6539.0
+            }
+        ],
+        "2024-08-30 21-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 12.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 6742.0
+            }
+        ],
+        "2024-08-30 20-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1383.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 8786.0
+            }
+        ],
+        "2024-08-30 19-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 7782.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 10995.0
+            }
+        ],
+        "2024-08-30 18-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 11967.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 12131.0
+            }
+        ],
+        "2024-08-30 17-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 13631.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 12562.0
+            }
+        ],
+        "2024-08-30 16-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 13994.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 10759.0
+            }
+        ],
+        "2024-08-30 15-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 15520.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 10110.0
+            }
+        ],
+        "2024-08-30 14-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 15087.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 7598.0
+            }
+        ],
+        "2024-08-30 13-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14213.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 6605.0
+            }
+        ],
+        "2024-08-30 12-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 12421.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4925.0
+            }
+        ],
+        "2024-08-30 11-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 10397.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4205.0
+            }
+        ],
+        "2024-08-30 10-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 8408.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3830.0
+            }
+        ],
+        "2024-08-30 09-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 4439.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3618.0
+            }
+        ],
+        "2024-08-30 08-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 393.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4350.0
+            }
+        ],
+        "2024-08-30 07-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 4385.0
+            }
+        ],
+        "2024-08-30 06-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 5169.0
+            }
+        ],
+        "2024-08-30 05-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 6391.0
+            }
+        ],
+        "2024-08-30 04-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 7708.0
+            }
+        ],
+        "2024-08-30 03-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 8670.0
+            }
+        ],
+        "2024-08-30 02-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 9889.0
+            }
+        ],
+        "2024-08-30 01-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 11350.0
+            }
+        ],
+        "2024-08-30 00-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 11875.0
+            }
+        ],
+        "2024-08-29 23-05:00": [
+            {
+                "fueltype": "SUN",
+                "value": 0.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 11400.0
+            }
         ]
     },
     "CAL": {
@@ -23084,6 +24534,476 @@
             {
                 "fueltype": "WND",
                 "value": 2559.0
+            }
+        ],
+        "2024-08-31 20-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 3498.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2262.0
+            }
+        ],
+        "2024-08-31 19-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 10721.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1958.0
+            }
+        ],
+        "2024-08-31 18-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14299.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1706.0
+            }
+        ],
+        "2024-08-31 17-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 16539.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1174.0
+            }
+        ],
+        "2024-08-31 16-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 17499.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 685.0
+            }
+        ],
+        "2024-08-31 15-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 18033.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 609.0
+            }
+        ],
+        "2024-08-31 14-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 18501.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 559.0
+            }
+        ],
+        "2024-08-31 13-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 18147.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 503.0
+            }
+        ],
+        "2024-08-31 12-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 17899.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 613.0
+            }
+        ],
+        "2024-08-31 11-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 17034.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 781.0
+            }
+        ],
+        "2024-08-31 10-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14124.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 986.0
+            }
+        ],
+        "2024-08-31 09-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 6985.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1151.0
+            }
+        ],
+        "2024-08-31 08-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1014.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1238.0
+            }
+        ],
+        "2024-08-31 07-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 19.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1340.0
+            }
+        ],
+        "2024-08-31 06-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -17.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1423.0
+            }
+        ],
+        "2024-08-31 05-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -17.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1633.0
+            }
+        ],
+        "2024-08-31 04-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -17.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1904.0
+            }
+        ],
+        "2024-08-31 03-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -17.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2210.0
+            }
+        ],
+        "2024-08-31 02-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -18.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2405.0
+            }
+        ],
+        "2024-08-31 01-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -19.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2615.0
+            }
+        ],
+        "2024-08-31 00-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -18.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2751.0
+            }
+        ],
+        "2024-08-30 23-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -26.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2721.0
+            }
+        ],
+        "2024-08-30 22-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -42.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2669.0
+            }
+        ],
+        "2024-08-30 21-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 111.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2243.0
+            }
+        ],
+        "2024-08-30 20-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 3614.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1843.0
+            }
+        ],
+        "2024-08-30 19-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 10775.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1534.0
+            }
+        ],
+        "2024-08-30 18-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14966.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1364.0
+            }
+        ],
+        "2024-08-30 17-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 16691.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1363.0
+            }
+        ],
+        "2024-08-30 16-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 17335.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1295.0
+            }
+        ],
+        "2024-08-30 15-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 18005.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1042.0
+            }
+        ],
+        "2024-08-30 14-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 17864.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 828.0
+            }
+        ],
+        "2024-08-30 13-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 17964.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 805.0
+            }
+        ],
+        "2024-08-30 12-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 18043.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 928.0
+            }
+        ],
+        "2024-08-30 11-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 16721.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1097.0
+            }
+        ],
+        "2024-08-30 10-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 14656.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1170.0
+            }
+        ],
+        "2024-08-30 09-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 7352.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1147.0
+            }
+        ],
+        "2024-08-30 08-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 1120.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1166.0
+            }
+        ],
+        "2024-08-30 07-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 5.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1303.0
+            }
+        ],
+        "2024-08-30 06-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -45.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 1646.0
+            }
+        ],
+        "2024-08-30 05-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -44.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2027.0
+            }
+        ],
+        "2024-08-30 04-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -44.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2352.0
+            }
+        ],
+        "2024-08-30 03-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -43.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2645.0
+            }
+        ],
+        "2024-08-30 02-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -48.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2804.0
+            }
+        ],
+        "2024-08-30 01-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -41.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 2916.0
+            }
+        ],
+        "2024-08-30 00-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": -30.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3170.0
+            }
+        ],
+        "2024-08-29 23-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 46.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3241.0
+            }
+        ],
+        "2024-08-29 22-07:00": [
+            {
+                "fueltype": "SUN",
+                "value": 80.0
+            },
+            {
+                "fueltype": "WND",
+                "value": 3253.0
             }
         ]
     }

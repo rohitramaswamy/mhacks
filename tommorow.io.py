@@ -22,7 +22,7 @@ locations = [
 ]
 
 # Define start and end dates
-start_date = "2024-09-01"
+start_date = "2024-08-29"
 end_date = "2024-09-25"
 
 # Initialize a dictionary to hold all locations' weather data
