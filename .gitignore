@@ -1,2 +1,3 @@
 env/  # or the name of your virtual environment folder
+myenv/
 .cache.sqlite
