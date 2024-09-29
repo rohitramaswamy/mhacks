@@ -55,17 +55,24 @@ pivot_df.rename(columns={'SUN': 'sun_value', 'WND': 'wind_value'}, inplace=True)
 # Display the transformed DataFrame
 pivot_df['sun_value'] = pivot_df['sun_value'].where(pivot_df['sun_value'] >= 0, 0)
 pivot_df['wind_value'] = pivot_df['wind_value'].where(pivot_df['wind_value'] >= 0, 0)
-print(pivot_df)
+
+pivot_df['sum_value'] = pivot_df['sun_value'] + pivot_df['wind_value']
+
+
 
 # Optionally, save the transformed DataFrame to a JSON file
 # pivot_df.to_json("transformed_pivot_data.json", orient="records", lines=True)
 
 # Assuming pivot_df is your DataFrame with the relevant columns
 X = pivot_df[['temperature_2m', 'cloud_cover', 'wind_speed_100m']]
-y = pivot_df[['sun_value', 'wind_value']]
+pivot_df['sum_value'] = (pivot_df['sum_value'] - pivot_df['sum_value'].min()) / (pivot_df['sum_value'].max() - pivot_df['sum_value'].min())
+y = pivot_df[['sum_value']]
+
+
+print(pivot_df)
 
 # Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 # Standardize the feature data
 scaler = StandardScaler()
@@ -81,11 +88,11 @@ X_test_scaled = X_test_scaled[:, np.newaxis, :]    # Shape: (samples, time_steps
 model = keras.Sequential([
     layers.LSTM(64, activation='relu', input_shape=(X_train_scaled.shape[1], X_train_scaled.shape[2])),
     layers.Dense(32, activation='relu'),
-    layers.Dense(2)  # Output layer with 2 neurons for sun_value and wind_value
+    layers.Dense(1)  # Output layer with 2 neurons for sun_value and wind_value
 ])
 
 # Compile the model
-model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae'])
+model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mse'])
 
 # Train the model
 history = model.fit(X_train_scaled, y_train, epochs=100, batch_size=32, validation_split=0.2)
@@ -98,5 +105,7 @@ print(f'Test MAE: {test_mae:.2f}')
 predictions = model.predict(X_test_scaled)
 
 # Create a DataFrame for the predictions
-predicted_df = pd.DataFrame(predictions, columns=['predicted_sun_value', 'predicted_wind_value'])
+# predicted_df = pd.DataFrame(predictions, columns=['predicted_sun_value', 'predicted_wind_value'])
+predicted_df = pd.DataFrame(predictions, columns=['predicted_sum_value'])
+
 print(predicted_df)
