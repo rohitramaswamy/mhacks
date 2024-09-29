@@ -16,7 +16,6 @@ url = "https://archive-api.open-meteo.com/v1/archive"
 # List of latitudes, longitudes, timezones, and corresponding states
 locations = [
     {"state": "NY", "latitude": 40.7128, "longitude": -74.0060, "timezone": "America/New_York"},
-    {"state": "FLA", "latitude": 27.6648, "longitude": -81.5158, "timezone": "America/New_York"},
     {"state": "TEX", "latitude": 31.9686, "longitude": -99.9018, "timezone": "America/Chicago"},
     {"state": "TEN", "latitude": 35.5175, "longitude": -86.5804, "timezone": "America/Chicago"},
     {"state": "CAL", "latitude": 36.7783, "longitude": -119.4179, "timezone": "America/Los_Angeles"},
@@ -70,19 +69,17 @@ for location in locations:
     hourly_cloud_cover = hourly.Variables(1).ValuesAsNumpy()
     hourly_wind_speed_100m = hourly.Variables(2).ValuesAsNumpy()
 
-    # Create a dictionary with the time as key and other variables as values
-    hourly_data_dict = {
-        time: {
-            "state": state,  # Include state in the output
+    # Create a nested dictionary with state as the first key and time as the second key
+    if state not in all_locations_data:
+        all_locations_data[state] = {}
+
+    # Add the hourly data to the corresponding state
+    for time, temp, cloud, wind in zip(hourly_time, hourly_temperature_2m, hourly_cloud_cover, hourly_wind_speed_100m):
+        all_locations_data[state][time] = {
             "temperature_2m": float(temp),  # Convert to float for JSON compatibility
             "cloud_cover": float(cloud),     # Convert to float for JSON compatibility
             "wind_speed_100m": float(wind)   # Convert to float for JSON compatibility
         }
-        for time, temp, cloud, wind in zip(hourly_time, hourly_temperature_2m, hourly_cloud_cover, hourly_wind_speed_100m)
-    }
-
-    # Add this location's data to the overall dictionary
-    all_locations_data.update(hourly_data_dict)  # Update with the hourly data
 
 # Convert the entire dictionary to a JSON object
 all_locations_json = json.dumps(all_locations_data, indent=4)

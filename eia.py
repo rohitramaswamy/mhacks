@@ -1,6 +1,5 @@
 import requests
 import json
-from datetime import datetime
 
 # Define the API key and URL
 API_KEY = 'mLJuZa8xlTL8uYh5KXDWHK7lYmsXVTcIC3AklQAz'
@@ -9,7 +8,7 @@ params = {
     "frequency": "local-hourly",
     "data[0]": "value",
     "facets[fueltype][]": ["SUN", "WND"],
-    "facets[respondent][]": ["CAL", "FLA", "NY", "TEN", "TEX"],
+    "facets[respondent][]": ["CAL", "NY", "TEN", "TEX"],
     "start": "2024-09-01T00-04:00",
     "end": "2024-09-25T00-04:00",
     "sort[0][column]": "period",
@@ -31,20 +30,27 @@ if response.status_code == 200:
 
     # Loop through the data and format it
     for entry in data['response']['data']:
-        # Use the period as the outer key
-        period = entry['period'].replace("T", " ") + ":00"  # Add seconds
-        
+        # Use the period as the outer key, replacing "T" with a space and adding seconds
+        period = entry['period'].replace("T", " ") + ":00"
+
         # Check if the fuel type is SUN or WND
         if entry['fueltype'] in ["SUN", "WND"]:
-            # Initialize nested dictionary for the period if not already done
-            if period not in transformed_data:
-                transformed_data[period] = {}
+            # Get the state (respondent)
+            state = entry['respondent']
+            
+            # Initialize the state dictionary if not already done
+            if state not in transformed_data:
+                transformed_data[state] = {}
 
-            # Add fuel data organized by respondent (state)
-            transformed_data[period][entry['respondent']] = {
+            # Initialize the nested dictionary for the period if not already done
+            if period not in transformed_data[state]:
+                transformed_data[state][period] = []  # Change to a list to hold multiple fuel types
+
+            # Append fuel data to the list for the corresponding period
+            transformed_data[state][period].append({
                 "fueltype": entry['fueltype'],
                 "value": float(entry['value'])  # Convert value to float
-            }
+            })
 
     # Print the transformed data
     # print(json.dumps(transformed_data, indent=4))
