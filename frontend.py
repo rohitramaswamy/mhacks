@@ -107,3 +107,5 @@ if st.session_state.city_weights:
     st.write("\nFinal loads on each server:")
     for i, load in enumerate(load_balancer.server_loads):
         st.write(f"{st.session_state.cities[i]} Server: {load} load units")
+    for i, load in enumerate(load_balancer.server_loads):
+        print(f"{st.session_state.cities[i]}", load / (1 + (st.session_state.city_weights[i])/100))
